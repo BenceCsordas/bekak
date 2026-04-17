@@ -1,3 +1,4 @@
+```
 import express from "express"
 import cors from "cors"
 import mysql from "mysql2/promise"
@@ -97,3 +98,4 @@ app.patch("/egyedszam/:id/:szam", patchMegfigyeles)
 app.delete("/megfigyeles/:id", deleteMegfigyeles)
 
 app.listen(88, err => console.log(err ? err : "Server on #88"))
+```
